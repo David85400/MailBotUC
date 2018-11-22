@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "./node_modules/.bin/eslint ./src"
   },
-  "author": "David",
+  "author": "",
   "dependencies": {
     "eris": "^0.9.0",
     "humanize-duration": "^3.12.1",

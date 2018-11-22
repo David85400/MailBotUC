@@ -1,0 +1,11 @@
+{
+  "token": "NTE0NzU0MzQ0Mjc3NTA4MDk2.DtbTYQ.YKM_fsDYjQ5XvOdvCu97R-TttNw",
+  "mailGuildId": "514752106876633089",
+  "mainGuildId": "428883955819741184",
+  "logChannelId": "id of the channel on the inbox server where notifications of new logs etc. will be posted",
+
+  "status": "contacter le Staff UC !",
+  "responseMessage": "Merci pour votre message ! Le staff Union Clash vous répondra dans les plus brefs délais.",
+  "alwaysReply": "false",
+  "relaySmallAttachmentsAsAttachments": "false"
+}
