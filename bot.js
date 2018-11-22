@@ -1,16 +1,15 @@
-const Eris = require('eris');
-const config = require('./config');
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-const bot = new Eris.CommandClient(config.token, {
-  getAllUsers: true,
-}, {
-  prefix: config.prefix,
-  ignoreSelf: true,
-  ignoreBots: true,
-  defaultHelpCommand: false,
-  defaultCommandOptions: {
-    caseInsensitive: true,
-  },
+client.on('ready', () => {
+    console.log('I am ready!');
 });
 
-module.exports = bot;
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
+});
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
